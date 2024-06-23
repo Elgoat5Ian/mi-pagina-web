@@ -1,0 +1,493 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(45, 45, 45);
+}
+
+/*El scroll-behavior es para que los sections sirvan y tenga la animacion de scroll lento y se vea bien*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+b{
+    background: none;
+}
+
+/*Nueva tipografia*/
+@font-face {
+    font-family: minecraft;
+    src: url(fonts/minecraft/Minecraft.ttf);
+}
+
+/* Fondo para la cabecera*/
+
+.hds{
+    background-color: rgb(45, 45, 45);
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+/*Cabezera*/
+
+header{
+    position: fixed;
+    height: 100px;
+}
+
+/*Menu de navegacion*/
+
+
+nav{
+    height: 16px;
+}
+
+.h1{
+    font-family: minecraft;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+    text-align: left;
+    position: relative;
+    background: none;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: rgb(255, 255, 255);
+    top: 7px;
+}
+
+.img{
+    width: 50px;
+    border-radius: 50px;
+    left: 300px;
+    position: relative;
+    bottom: 71px;
+}
+
+.menu{
+    text-align: left;
+    bottom: 62px;
+    position: relative;
+    left: 575px;
+    width: 600px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu li a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: white;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    color: #62c4f1;
+}
+
+/* Imagen de minecraft para iniciar la pagina*/
+
+/*Imagen de fondo*/
+.img3{
+    width: 100%;
+    position: relative;
+}
+/*"los mejores servidores de minecraft"*/
+.srvm{
+    font-size: 80px;
+    position: relative;
+    bottom: 500px; 
+    text-align: center;
+    color: rgb(247, 247, 247);
+    font-family: system-ui;
+    text-shadow: 4px 4px 4px black;
+    background: none;
+}
+
+/* caja de la imagen*/
+
+.uiop{
+    position: relative;
+    top: 100px;
+    height: 900px;
+}
+
+/* Sub titulo */
+
+.lg1{
+    background-color: #0a8552 !important;
+    background-color: #252525;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 116px;
+}
+
+.blg{
+    color: whitesmoke;
+    top: 32px;
+    position: relative;
+    margin-left: 25px;
+    font-family: minecraft;
+    letter-spacing: 1.5px;
+    background: none;
+    text-align: center;
+    font-size: 40px;
+}
+
+.informacionGeneral{
+    width: 100%;
+    bottom: 115px;
+    position: relative;
+    height: 391px;
+}
+
+.informacionG{
+    width: 53%;
+    position: relative;
+    bottom: -75px;
+    left: 548px;
+    color: whitesmoke;
+    font-size: 28px;
+    text-align: left;
+}
+
+.imgG{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    bottom: 208px;
+    left: 85px;
+    border-radius: 10px;
+}
+
+/*Aqui empieza la entrada 1 de los servidores Premiun*/
+
+/*Contenedor madre*/
+.srvP{
+    width: 100%;
+    position: relative;
+    bottom: 100px;
+}
+
+/*Titulo*/
+
+.srvt{
+    position: relative;
+    text-align: center;
+    background-color: #cb9609;
+    color: whitesmoke;
+    font-size: 50px;
+    padding: 10px;
+}
+
+/*HYPIXEL*/
+
+.hp{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 10px;
+}
+
+.hp1{
+    font-size: 22px;
+    background-color: #af3f5c;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+/*Mineplex*/
+
+.mn{
+    width: 100%;
+    height: 165px;
+    position: relative;
+    margin-top: 10px;
+    top: 10px;
+}
+
+.mn1{
+    font-size: 22px;
+    background-color: #4f2ed3;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 10px;
+    color: whitesmoke;   
+}
+
+/*The Hive*/
+
+.hv{
+    width: 100%;
+    height: 165px;
+    position: relative;
+    top: 10px;
+}
+
+.hv1{
+    font-size: 22px;
+    background-color: chocolate;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+/*CUBECRAFT*/
+
+.cb{
+    width: 100%;
+    height: 165px;
+    position: relative;
+    top: 10px;
+}
+
+.cb1{
+    font-size: 22px;
+    background-color: rgb(49, 144, 207);
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+/*WYNNCRAFT*/
+
+.wn{
+    width: 100%;
+    height: 165px;
+    position: relative;
+    top: 10px;
+}
+
+.wn1{
+    font-size: 22px;
+    background-color: rgb(124 49 207);
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+/*SPAN'S*/
+
+.TH{
+    text-decoration: none;
+    background: none;
+    font-size: 30px;
+}
+
+.MNS{
+    text-decoration: none;
+    background: none;
+    font-size: 30px;
+}
+
+.HVS{
+    text-decoration: none;
+    background: none;
+    font-size: 30px;
+}
+
+.CBS{
+    text-decoration: none;
+    background: none;
+    font-size: 30px;
+}
+
+.WNS{
+    text-decoration: none;
+    background: none;
+    font-size: 30px;
+}
+
+/*Contenedor Madre de servidores nopremiun*/
+
+.srvG{
+width: 100%;
+position: relative;
+bottom: 25px;
+}
+
+/*Titulo*/
+
+.srvGT{
+    position: relative;
+    text-align: center;
+    background-color: #3cb925;
+    color: whitesmoke;
+    font-size: 50px;
+    padding: 10px;
+}
+
+/*Servidores lista*/
+
+
+/*UniversoCraft*/
+.uc{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    top: 50px;
+}
+
+.ucp{
+    font-size: 22px;
+    background-color: rgb(57, 60, 224) !important;
+    text-align: center;
+    position: relative;
+    top: -1px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+/*Zonecraft*/
+
+.zc{
+    width: 100%;
+    height: 182px;
+    position: relative;
+    top: 65px;
+    margin-top: 35px;
+}
+
+.zcp{
+    font-size: 22px;
+    background-color: rgb(241, 67, 67);
+    text-align: center;
+    position: relative;
+    top: 0px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+/*SkyCraft*/
+
+.sk{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    top: 64px;
+    margin-top: 35px;
+}
+
+.skp{
+    font-size: 22px;
+    background-color: rgb(39 169 133);
+    text-align: center;
+    position: relative;
+    top: -1px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+/*SuperCraft*/
+
+.sp{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    top: 64px;
+    margin-top: 35px;
+}
+
+.spp{
+    font-size: 22px;
+    background-color: rgb(157 57 57);
+    text-align: center;
+    position: relative;
+    top: -1px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+/*Deluxe Zone*/
+
+.dz{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    top: 64px;
+    margin-top: 35px;
+}
+
+.dzp{
+    font-size: 22px;
+    background-color: rgb(159, 66, 172);
+    text-align: center;
+    position: relative;
+    top: -1px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+/*Spans de NOPREMIUN*/
+
+.ucps{
+    text-decoration: none;
+    background: none;
+    font-size: 30px;
+}
+
+.zcs{
+    text-decoration: none;
+    background: none;
+    font-size: 30px;
+}
+
+.sks{
+    text-decoration: none;
+    background: none;
+    font-size: 30px;
+}
+
+.sps{
+    text-decoration: none;
+    background: none;
+    font-size: 30px;
+}
+
+.dzs{
+    text-decoration: none;
+    background: none;
+    font-size: 30px;
+}
+
+/*COLOR GRIS PRINCIPAL: rgb(45, 45, 45) 
+ COLOR CELESTE PRINCIPAL: #62c4f1*/
